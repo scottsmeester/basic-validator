@@ -39,7 +39,7 @@ if (isValid !== true) {
 
 
 
-var isValid = true; // reset isValid
+isValid = true; // reset isValid
 // check birth date
 // charaters at 3 and 6 needs to be slashes and needs to have length of eight charaters
 if ((myBirthDate.charAt(2) === "/" && myBirthDate.charAt(5) ==="/") && bdLen === 8) {
@@ -67,7 +67,7 @@ if (isValid !== true) {
 
 
 
-var isValid = true; // reset isValid
+isValid = true; // reset isValid
 // check postal code
 // charaters at 3 and 6 needs to be slashes and needs to have length of eight charaters
 if ((myPostalCode.charAt(5) === "-") && pcLen === 10) {
@@ -106,7 +106,7 @@ if (isValid !== true) {
 
 
 
-var isValid = true; // reset isValid
+isValid = true; // reset isValid
 // check state
 // needs to have length of two charaters
 if (stLen === 2) {
@@ -130,7 +130,7 @@ if (isValid !== true) {
 
 
 
-var isValid = true; // reset isValid
+isValid = true; // reset isValid
 // check married status
 // needs to have length of two or three charaters
 if ((msLen === 2 || msLen === 3) && (myStatus.toLowerCase() === "yes" || myStatus.toLowerCase() === "no")) {
